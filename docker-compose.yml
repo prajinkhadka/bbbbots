@@ -1,0 +1,7 @@
+version: "3.3"
+services:
+  audio-video:
+    build: .
+    volumes: 
+      - .env:/app/.env
+    network_mode: host
